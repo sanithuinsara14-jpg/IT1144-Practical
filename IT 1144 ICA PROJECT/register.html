@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookMe - Sign In</title>
+    <link rel="stylesheet" href="style1.css">
+	<link rel="icon" type="image/x-icon" href="bookme.png">
+</head>
+<body class="new-body">
+ 
+
+    <div class="new-container">
+	
+        <div class="new-card">
+		<div class="logo-3">
+                    <img src="bookme.png" class="logo-icon-3" alt="Logo.">
+                    <div class="logo-content">BookMe</div>
+                </div>
+            <h2 class="new-title">Create Account</h2>
+            
+            <form onsubmit="registerhere(event)">
+    <div class="new-group">
+        <label class="new-label">Full Name</label>
+        <input type="text" id="reg-name" class="new-input" placeholder="Enter your name" required>
+    </div>
+    
+    <div class="new-group">
+        <label class="new-label">Email Address</label>
+        <input type="email" id="reg-email" class="new-input" placeholder="Enter your email" required>
+    </div>
+    
+    <div class="new-group">
+        <label class="new-label">Password</label>
+        <input type="password" id="reg-password" class="new-input" placeholder="Create password" required>
+    </div>
+    
+    <button type="submit" class="new-submit">REGISTER</button>
+</form>
+
+
+            <p class="new-text">Already have an account? <a href="signin.html" class="new-link">Sign In here</a></p>
+            <a href="Home.html" class="new-back">Back to Home</a>
+        </div>
+    </div>
+	
+	<script src="script.js"></script>
+
+</body>
+</html>

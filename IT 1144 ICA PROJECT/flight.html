@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>BookMe - Flights</title>
+    <link rel="stylesheet" href="style1.css">
+	<link rel="icon" type="image/x-icon" href="bookme.png">
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <a href="Home.html"><div class="logo"  href="Home.html">
+                <img src="bookme.png" class="logo-icon-2">
+                <div class="logo-content">BookMe</div>
+            </div></a>
+            <div class="nav1">
+                <ul>
+				<li>
+                            <select id="currency">
+                                <option>LKR</option>
+                                <option>USD</option>
+                                <option>EUR</option>
+                                <option>INR</option>
+                                <option>JPY</option>
+                                <option>CAD</option>
+                                <option>AED</option>
+                                <option>AUD</option>
+                                <option>GBP</option>
+                            </select>
+                        </li>
+                        <li><a href="#" class="list">LIST YOUR PROPERTY</a></li>
+                    <li><a href="register.html"><button>REGISTER</button></a></li>
+                    <li><a href="signup.html"><button>SIGN IN</button></a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <nav class="nav2">
+            <ul> 
+                 <li><a href="Home.html"><img src="home.png" class="nav-icon" alt="">HOME</a></li>
+                <li><a href="stays.html"><img src="double-bed.png" class="nav-icon" alt="">STAYS</a></li>
+                <li><a href="flight.html"><img src="ticket.png" class="nav-icon" alt="">FLIGHT</a></li>
+                <li><a href="rentals.html"><img src="car-wash.png" class="nav-icon" alt="">RENTAL</a></li>
+                <li><a href="contactus.html"><img src="phone-call.png" class="nav-icon" alt="">CONTACT-US</a></li>
+				<li class="search-container">
+                    <input type="text" name="search" placeholder="Search" class="search-bar">
+                    <button class="btn3">Search</button>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="title">
+            <h1>Fly Anywhere</h1>
+			<h3>Connect with us to travel the world</h3>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="form-box">
+            <form>
+                <div class="form-row">
+                    <label>From</label>
+                    <input type="text" class="form-input" placeholder="Departure Airport" required>
+                </div>
+                <div class="form-row">
+                    <label>To</label>
+                    <input type="text" class="form-input" placeholder="Destination Airport" required>
+                </div>
+                <div class="form-row">
+                    <label>Departure Date</label>
+                    <input type="date" class="form-input" required>
+                </div>
+                <button type="submit">Search Flights</button>
+            </form>
+        </div>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
